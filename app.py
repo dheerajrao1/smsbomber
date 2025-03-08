@@ -314,7 +314,7 @@ def home():
     return render_template('home.html')
 
 def check(number):
-    if number=="8639625032":
+    if number=="9059649080":
         return [1,"NUMBER BLOCKED"]
     elif len(number)!=10:
         return [1,"PLEASE ENTER VALID NUMBER"]
